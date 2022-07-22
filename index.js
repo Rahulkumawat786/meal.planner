@@ -3,14 +3,18 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-//import cors from 'cors';
+import cors from 'cors';
 import mealPlannerRoutes from './routers/router.js';
 const app = express();
 
 app.use(bodyParser.json({limit:"33mb",extended:true}));
 app.use(bodyParser.urlencoded({limit:"33mb",extended:true}));
-//app.use(cors());
+app.use(cors());
 
+app.get('/',(req,res)=>{
+    console.log("Meal Planner Application");
+    res.status(201).json({"message":"Meal Planner Application Started"});
+});
 app.use('/mealplanner',mealPlannerRoutes);
 
 dotenv.config({path:"config.env"});
