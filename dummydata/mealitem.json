@@ -1,0 +1,27 @@
+[
+    {
+        "Category":"BREAKFAST",
+        "name":"breakfast",
+        "foodItems":["Milk","Butter","Eggs"]
+    },
+    {
+        "Category":"LUNCH",
+        "name":"lunch",
+        "foodItems":["Rice","Carrot(Boiled)","Tomatoes"]
+    },
+    {
+        "Category":"EVENING_SNACKS",
+        "name":"evening snacks",
+        "foodItems":["Graps","Coffe(Black)","Apples","Pea Nuts(Roasted)"]
+    },
+    {
+        "Category":"DINNER",
+        "name":"dinner",
+        "foodItems":["Bread","Butter","Oranges"]
+    },
+    {
+        "Category":"BREAKFAST",
+        "name":"breakfast",
+        "foodItems":["Milk","Butter","Wine","Beans"]
+    }
+]
