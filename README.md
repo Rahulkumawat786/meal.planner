@@ -5,5 +5,5 @@
   2. expressjs
   3. mongodb
 ## to run the application create a config.env file 
-### 1. Assign the port numer on which you want to run server (eg: PORT = 3000)
-### 2. Assign MongoDb connection Link (eg. mongodb:/localhost:3000)
+  1. Assign the port numer on which you want to run server (eg: PORT = 3000)
+  2. Assign MongoDb connection Link (eg. mongodb:/localhost:3000)
