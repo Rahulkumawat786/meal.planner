@@ -27,3 +27,8 @@
   8. To get Food Item using given calorie value
     GET: https://localhost:3000/mealplanner/selectfood/:calorie (calorie: calorie value)
     
+    
+## ER Diagram for Schema design
+![image](https://user-images.githubusercontent.com/75028176/180646185-c26cc28b-b35f-4f69-8935-a3face10fd46.png)
+
+    
